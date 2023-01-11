@@ -1,7 +1,11 @@
 # Book_recommendation_system
-A Book Recommendation System which recommends the users a selection of books based on their interests.
+
+
+![image](https://user-images.githubusercontent.com/101803400/211798411-c608e4b6-20b6-4a84-b028-5615215a6d6b.png)
+
 
 A Book Recommendation System which recommends the users a selection of books based on their interests.
+
 
 ### 1. Data Cleaning and Pre-Processing
 The dataset consists of three tables; Books, Users, and Ratings. Data from all three tables are cleaned and preprocessed separately as defined below briefly:
@@ -14,7 +18,11 @@ Check for null values in the table. The Age column has more than 1 lakh null val
 
 Check for null values in the table. Check for Rating column and User-ID column to be an integer. Removal of punctuation from ISBN column values and if that resulting ISBN is available in the book dataset only then considering else drop that entity. Upper-casing all the alphabets present in the ISBN column. Removal of duplicate entries from the table.
 
+
  ### 2. Algorithms Implemented:
+ 
+ ![image](https://user-images.githubusercontent.com/101803400/211798617-f0278da3-8f20-4e62-91b7-e84f99c4e42d.png)
+ 
 2.1 Popularity Based Recommendation :
 Popular in the Whole Collection We have sorted the dataset according to the total ratings each of the books have received in non-increasing order and then recommended top n books.
 
